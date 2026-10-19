@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover the animal behind your Jungle King piece.">
+  <title>Jungle King</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="website.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body data-page="website">
+  <header class="masthead">
+    <a href="./" class="brand" aria-label="Jungle King home">jungle king<span aria-hidden="true">.</span></a>
+    <div class="language-controls" role="group" aria-label="Language / 語言"><button class="text-button" id="language-en" aria-pressed="true">EN</button><span aria-hidden="true">/</span><button class="text-button" id="language-zh" aria-pressed="false" lang="zh-Hant">繁中</button></div>
+  </header>
+  <main>
+    <section class="workspace" id="scan-workspace" aria-label="Scan and animal profile">
+      <div class="scanner-card">
+        <div class="scanner-copy"><p class="eyebrow" id="scan-eyebrow">A CLOSER LOOK</p><div class="card-top"><h1 id="scan-title">Scan a piece.</h1></div>
+        <p class="scan-description" id="scan-description">Every piece has a story. Place one Jungle King piece in the frame to meet its animal.</p></div>
+        <div class="scanner-view">
+        <div class="camera-stage" id="camera-stage">
+          <video id="camera" autoplay playsinline muted hidden aria-label="Live camera view"></video>
+          <div class="stage-art" id="stage-art"><svg class="camera-symbol" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M9 14h8l3-5h8l3 5h8v24H9z"/><circle cx="24" cy="26" r="7"/></svg><p id="stage-caption">Centre one piece</p></div>
+          <div class="scan-brackets" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          <span class="camera-tag" id="camera-tag" hidden>Camera off</span>
+        </div>
+        <div class="camera-controls"><button class="button primary" id="start-camera">Enable camera</button><button class="text-button" id="stop-camera" hidden disabled>Stop camera</button></div>
+        <div id="trained-controls" hidden><button class="button primary" id="scan-trained" disabled>Scan piece</button><button class="text-button" id="stop-recognition" disabled>Pause scanning</button></div>
+        <p class="preparation-note" id="preparation-note">Product scanning is being prepared.</p>
+        <p class="scan-status" id="scan-status" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+      <div id="profile-mount"></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a href="https://www.llab.co/" target="_blank" rel="noopener">llab design ltd ↗</a><a href="prototype.html" id="prototype-link">Prototype ↗</a></footer>
+</body>
+</html>

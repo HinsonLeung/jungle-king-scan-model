@@ -1,0 +1,725 @@
+{
+  "schemaVersion": 1,
+  "researchCheckedOn": "2026-10-09",
+  "campaignUrl": "https://www.kickstarter.com/projects/llabdesign/jungle-king",
+  "profiles": [
+    {
+      "pieceId": "elephant_piece",
+      "labels": [
+        "Asian Elephant",
+        "elephant_piece",
+        "elephant",
+        "asian_elephant"
+      ],
+      "name": "Asian Elephant",
+      "scientificName": "Elephas maximus",
+      "illustration": "elephant",
+      "artwork": {
+        "file": "assets/game-animals-main.png",
+        "width": 1334,
+        "height": 1214,
+        "crop": [
+          35,
+          169,
+          349,
+          305
+        ]
+      },
+      "intro": "An elephant’s journeys help shape forests. Protecting connected habitat helps people and elephants share space.",
+      "habitat": "Forests and adjoining landscapes across South and Southeast Asia.",
+      "threats": "Habitat loss and fragmentation, conflict with people, poaching, and illegal capture.",
+      "protection": "Restore habitat corridors, reduce conflict around farms, and prevent illegal wildlife trade.",
+      "fact": "Elephants spread seeds as they move through the forest.",
+      "conservation": {
+        "category": "Endangered",
+        "code": "EN",
+        "scope": "Global species",
+        "globalCategory": "Endangered",
+        "secondary": [],
+        "note": "This category refers to the Asian elephant species, not a particular national population.",
+        "assessmentDate": null,
+        "sourceUrl": "https://www.worldwildlife.org/species/elephant/asian-elephant/"
+      },
+      "sources": [
+        {
+          "name": "WWF · Asian elephant",
+          "url": "https://www.worldwildlife.org/species/elephant/asian-elephant/",
+          "supports": "Status, habitat, threats, and conservation"
+        },
+        {
+          "name": "WWF · Asian elephant facts",
+          "url": "https://www.worldwildlife.org/resources/facts/asian-elephants-threats/",
+          "supports": "Seed dispersal and forest role"
+        }
+      ],
+      "reviewed": true,
+      "mappingStatus": "identified",
+      "checkedOn": "2026-10-09",
+      "assets": {
+        "glb": null,
+        "usdz": null
+      }
+    },
+    {
+      "pieceId": "lion_piece",
+      "labels": [
+        "West African Lion",
+        "lion_piece",
+        "lion",
+        "west_african_lion"
+      ],
+      "name": "West African Lion",
+      "scientificName": "Panthera leo · West African population",
+      "illustration": "lion",
+      "artwork": {
+        "file": "assets/game-animals-main.png",
+        "width": 1334,
+        "height": 1214,
+        "crop": [
+          481,
+          154,
+          359,
+          311
+        ]
+      },
+      "intro": "The lion’s story changes with geography. West Africa’s remaining lions need protection even though the species has a different global category.",
+      "habitat": "Savannas and woodland landscapes in West Africa, including Senegal’s Niokolo-Koba National Park.",
+      "threats": "Shrinking habitat, loss of wild prey, poaching, snares, and conflict over livestock.",
+      "protection": "Support protected-area patrols, monitor populations, safeguard prey, and improve coexistence with communities.",
+      "fact": "Lions live in social groups called prides.",
+      "conservation": {
+        "category": "Critically Endangered",
+        "code": "CR",
+        "scope": "West African population",
+        "globalCategory": "Vulnerable",
+        "secondary": [
+          {
+            "category": "Vulnerable",
+            "scope": "Lion species globally"
+          }
+        ],
+        "note": "The regional West African status must not be presented as the category for every lion worldwide.",
+        "assessmentDate": null,
+        "sourceUrl": "https://www.catsg.org/living-species-lions"
+      },
+      "sources": [
+        {
+          "name": "IUCN SSC Cat Specialist Group · Lion",
+          "url": "https://www.catsg.org/living-species-lions",
+          "supports": "Regional/global categories, ecology, and threats"
+        },
+        {
+          "name": "Panthera · West African lion recovery",
+          "url": "https://www.panthera.org/blog/last-lions-of-west-africa",
+          "supports": "Remaining populations and conservation work"
+        }
+      ],
+      "reviewed": true,
+      "mappingStatus": "identified",
+      "checkedOn": "2026-10-09",
+      "assets": {
+        "glb": null,
+        "usdz": null
+      }
+    },
+    {
+      "pieceId": "tiger_piece",
+      "labels": [
+        "Malayan Tiger",
+        "tiger_piece",
+        "tiger",
+        "malayan_tiger"
+      ],
+      "name": "Malayan Tiger",
+      "scientificName": "Panthera tigris · Malayan population",
+      "illustration": "tiger",
+      "artwork": {
+        "file": "assets/game-animals-main.png",
+        "width": 1334,
+        "height": 1214,
+        "crop": [
+          968,
+          153,
+          319,
+          303
+        ]
+      },
+      "intro": "A forest predator and a symbol of Malaysia. Protecting the Malayan tiger means tackling poaching while keeping forests connected and prey secure.",
+      "habitat": "Natural forests of Peninsular Malaysia.",
+      "threats": "Poaching and illegal trade, forest loss and fragmentation, and overhunting of prey.",
+      "protection": "Anti-poaching patrols, wildlife monitoring, habitat protection, and public conservation education.",
+      "fact": "Panthera tigris jacksoni is used in the traditional subspecies classification; tiger taxonomy is under review.",
+      "conservation": {
+        "category": "Critically Endangered",
+        "code": "CR",
+        "scope": "Malayan tiger · WWF-Malaysia",
+        "globalCategory": "Endangered",
+        "secondary": [
+          {
+            "category": "Endangered",
+            "scope": "Tiger species globally"
+          }
+        ],
+        "note": "WWF-Malaysia reports the Malayan tiger as Critically Endangered. This differs from the global species category; subspecies taxonomy is under review.",
+        "assessmentDate": null,
+        "sourceUrl": "https://www.wwf.org.my/tiger_facts/status_of_malayan_tigers/"
+      },
+      "sources": [
+        {
+          "name": "WWF-Malaysia · Status of Malayan tigers",
+          "url": "https://www.wwf.org.my/tiger_facts/status_of_malayan_tigers/",
+          "supports": "Malayan tiger conservation category"
+        },
+        {
+          "name": "WWF-Malaysia · Tiger conservation FAQ",
+          "url": "https://www.wwf.org.my/%3F30025/Tiger-Frequently-Asked-Questions",
+          "supports": "Threats and protection activities"
+        },
+        {
+          "name": "IUCN SSC Cat Specialist Group · Tiger",
+          "url": "https://www.catsg.org/living-species-tiger",
+          "supports": "Taxonomy, range, and global category"
+        }
+      ],
+      "reviewed": true,
+      "mappingStatus": "identified",
+      "checkedOn": "2026-10-09",
+      "assets": {
+        "glb": "/models/tiger-test.glb",
+        "usdz": null,
+        "placeholder": true,
+        "description": "Original stylised animated tiger test model; about 13 cm long. Not a product replica."
+      }
+    },
+    {
+      "pieceId": "leopard_piece",
+      "labels": [
+        "Indochinese Leopard",
+        "leopard_piece",
+        "leopard",
+        "indochinese_leopard"
+      ],
+      "name": "Indochinese Leopard",
+      "scientificName": "Panthera pardus delacouri",
+      "illustration": "leopard",
+      "artwork": {
+        "file": "assets/game-animals-main.png",
+        "width": 1334,
+        "height": 1214,
+        "crop": [
+          960,
+          770,
+          330,
+          276
+        ]
+      },
+      "intro": "A leopard can vanish quietly from a forest. The Indochinese subspecies faces exceptional pressure, making its remaining strongholds especially important.",
+      "habitat": "Southeast Asian forests; important remaining strongholds include Peninsular Malaysia and the Thailand–Myanmar border region.",
+      "threats": "Poaching, snaring, illegal trade, loss of habitat and prey, and conflict with people.",
+      "protection": "Strengthen anti-poaching work, protect remaining forest strongholds, and monitor leopards and their prey.",
+      "fact": "Many Indochinese leopards in the Malay Peninsula have a dark, melanistic coat.",
+      "conservation": {
+        "category": "Critically Endangered",
+        "code": "CR",
+        "scope": "Indochinese subspecies",
+        "globalCategory": "Vulnerable",
+        "secondary": [
+          {
+            "category": "Vulnerable",
+            "scope": "Leopard species globally"
+          }
+        ],
+        "note": "The subspecies category is more severe than the global category for Panthera pardus.",
+        "assessmentDate": null,
+        "sourceUrl": "https://panthera.org/newsroom/panthera-study-finds-indochinese-leopard-functionally-extinct-cambodia-signaling-loss"
+      },
+      "sources": [
+        {
+          "name": "Panthera · Indochinese leopard study",
+          "url": "https://panthera.org/newsroom/panthera-study-finds-indochinese-leopard-functionally-extinct-cambodia-signaling-loss",
+          "supports": "Status, strongholds, threats, and dark coats"
+        },
+        {
+          "name": "IUCN SSC Cat Specialist Group · Leopard",
+          "url": "https://www.catsg.org/living-species-leopard",
+          "supports": "Global category and conservation priorities"
+        }
+      ],
+      "reviewed": true,
+      "mappingStatus": "identified",
+      "checkedOn": "2026-10-09",
+      "assets": {
+        "glb": null,
+        "usdz": null
+      }
+    },
+    {
+      "pieceId": "bear_piece",
+      "labels": [
+        "Formosan Black Bear",
+        "bear_piece",
+        "bear",
+        "formosan_black_bear"
+      ],
+      "name": "Formosan Black Bear",
+      "scientificName": "Ursus thibetanus formosanus",
+      "illustration": "bear",
+      "artwork": {
+        "file": "assets/game-animals-main.png",
+        "width": 1334,
+        "height": 1214,
+        "crop": [
+          29,
+          747,
+          352,
+          341
+        ]
+      },
+      "intro": "Taiwan’s native bear lives in mountain forests. Its local conservation needs deserve their own story alongside the status of the Asiatic black bear species.",
+      "habitat": "Broadleaf, mixed, and coniferous mountain forests in Taiwan.",
+      "threats": "Habitat deterioration and fragmentation, road development, illegal hunting, and accidental trapping.",
+      "protection": "Safeguard connected forest habitat, reduce accidental trapping, and support community conservation and monitoring.",
+      "fact": "The Formosan black bear is an endemic Taiwanese subspecies of the Asiatic black bear.",
+      "conservation": {
+        "category": "Vulnerable",
+        "code": "VU",
+        "scope": "Asiatic black bear species globally",
+        "globalCategory": "Vulnerable",
+        "secondary": [
+          {
+            "category": "Nationally Endangered",
+            "scope": "Taiwan Red List",
+            "assessmentYear": "2024"
+          }
+        ],
+        "note": "The game’s Vulnerable label reflects the global species category. Taiwan lists the Formosan population as Nationally Endangered in 2024, a separate assessment.",
+        "assessmentDate": null,
+        "sourceUrl": "https://www.forest.gov.tw/0008045"
+      },
+      "sources": [
+        {
+          "name": "Taiwan Forestry and Nature Conservation Agency · Black bear",
+          "url": "https://www.forest.gov.tw/0008045",
+          "supports": "National/global categories, habitat, and threats"
+        },
+        {
+          "name": "Taiwan Black Bear Conservation Association · Research",
+          "url": "https://www.taiwanbear.org.tw/admin/resource/files/AJ200601-The_status_and_management_of_Asiatic_black_bears_in_Taiwan_Japan_Bear_Network_Press%2C_Japan.pdf",
+          "supports": "Endemic subspecies and conservation background"
+        }
+      ],
+      "reviewed": true,
+      "mappingStatus": "identified",
+      "checkedOn": "2026-10-09",
+      "assets": {
+        "glb": null,
+        "usdz": null
+      }
+    },
+    {
+      "pieceId": "dog_piece",
+      "labels": [
+        "African Wild Dog",
+        "dog_piece",
+        "dog",
+        "african_wild_dog"
+      ],
+      "name": "African Wild Dog",
+      "scientificName": "Lycaon pictus",
+      "illustration": "dog",
+      "artwork": {
+        "file": "assets/game-animals-small.png",
+        "width": 1368,
+        "height": 586,
+        "crop": [
+          100,
+          125,
+          276,
+          303
+        ]
+      },
+      "intro": "Life in a pack depends on room to roam. African wild dogs need connected landscapes to hunt, raise pups, and move between territories.",
+      "habitat": "Grasslands, woodlands, and other habitats, with major populations in southern and eastern Africa.",
+      "threats": "Habitat fragmentation, conflict with people, accidental and deliberate killing, and infectious disease.",
+      "protection": "Maintain wildlife corridors, reduce livestock conflict, and support community conservation and population monitoring.",
+      "fact": "Each wild dog has its own distinctive pattern of coloured patches.",
+      "conservation": {
+        "category": "Endangered",
+        "code": "EN",
+        "scope": "Global species",
+        "globalCategory": "Endangered",
+        "secondary": [],
+        "note": "The status shown here applies to Lycaon pictus worldwide.",
+        "assessmentDate": null,
+        "sourceUrl": "https://www.worldwildlife.org/species/african-wild-dog/"
+      },
+      "sources": [
+        {
+          "name": "WWF · African wild dog",
+          "url": "https://www.worldwildlife.org/species/african-wild-dog/",
+          "supports": "Status, distribution, threats, and corridors"
+        },
+        {
+          "name": "African Wildlife Foundation · African wild dog",
+          "url": "https://www.awf.org/wildlife-conservation/african-wild-dog",
+          "supports": "Distinctive coats and community conservation"
+        }
+      ],
+      "reviewed": true,
+      "mappingStatus": "identified",
+      "checkedOn": "2026-10-09",
+      "assets": {
+        "glb": null,
+        "usdz": null
+      }
+    },
+    {
+      "pieceId": "cat_piece",
+      "labels": [
+        "Leopard Cat",
+        "cat_piece",
+        "cat",
+        "leopard_cat"
+      ],
+      "name": "Leopard Cat",
+      "scientificName": "Prionailurus bengalensis",
+      "illustration": "cat",
+      "artwork": {
+        "file": "assets/game-animals-small.png",
+        "width": 1368,
+        "height": 586,
+        "crop": [
+          545,
+          149,
+          326,
+          284
+        ]
+      },
+      "intro": "A small wild cat with a wide range. Least Concern globally does not mean safe everywhere: local populations can still need urgent protection.",
+      "habitat": "Forests, shrublands, and some farmed landscapes across mainland Asia, including Taiwan.",
+      "threats": "Local habitat loss, hunting and trade, snares, retaliation over poultry, and road mortality.",
+      "protection": "Protect habitat refuges, reduce snaring and wildlife trade, and address road and community conflict risks.",
+      "fact": "Leopard cats hunt small prey, especially rodents, and can climb and swim.",
+      "conservation": {
+        "category": "Least Concern",
+        "code": "LC",
+        "scope": "Mainland leopard cat globally",
+        "globalCategory": "Least Concern",
+        "secondary": [
+          {
+            "category": "Nationally Endangered",
+            "scope": "Taiwan population · Taiwan Red List",
+            "assessmentYear": "2024"
+          }
+        ],
+        "note": "The game does not specify a local population. The Taiwan assessment is additional context, not an assumed identity for the piece.",
+        "assessmentDate": null,
+        "sourceUrl": "https://www.catsg.org/living-species-leopardcat"
+      },
+      "sources": [
+        {
+          "name": "IUCN SSC Cat Specialist Group · Leopard cat",
+          "url": "https://www.catsg.org/living-species-leopardcat",
+          "supports": "Global category, habitat, ecology, and threats"
+        },
+        {
+          "name": "Taiwan Forestry and Nature Conservation Agency · Leopard cat",
+          "url": "https://www.forest.gov.tw/0008043",
+          "supports": "Taiwan national category and local pressures"
+        }
+      ],
+      "reviewed": true,
+      "mappingStatus": "identified",
+      "checkedOn": "2026-10-09",
+      "assets": {
+        "glb": null,
+        "usdz": null
+      }
+    },
+    {
+      "pieceId": "rat_piece",
+      "labels": [
+        "Aquatic Rat",
+        "rat_piece",
+        "rat",
+        "aquatic_rat",
+        "water_vole"
+      ],
+      "name": "Aquatic Rat",
+      "commonName": "European water vole · provisional identification",
+      "scientificName": "Arvicola amphibius · provisional mapping",
+      "illustration": "rat",
+      "artwork": {
+        "file": "assets/game-animals-small.png",
+        "width": 1368,
+        "height": 586,
+        "crop": [
+          1003,
+          159,
+          286,
+          244
+        ]
+      },
+      "intro": "The game’s Aquatic Rat label and UK conservation note appear to refer to a water vole. This identification needs confirmation from the designer.",
+      "habitat": "For water voles: vegetated banks of rivers, streams, ditches, ponds, and wetlands.",
+      "threats": "For water voles: habitat loss and degradation, pollution, and predation by introduced American mink.",
+      "protection": "Restore connected riverbank habitat, monitor populations, and support coordinated mink management by conservation groups.",
+      "fact": "Water voles have a rounded nose, small ears, and a furry tail.",
+      "conservation": {
+        "category": "Endangered",
+        "code": "EN",
+        "scope": "Water vole · Great Britain Red List",
+        "globalCategory": "Least Concern",
+        "secondary": [
+          {
+            "category": "Least Concern",
+            "scope": "European water vole globally"
+          }
+        ],
+        "note": "These facts apply only if the piece represents Arvicola amphibius. Endangered in UK is more precisely a Great Britain assessment, not a global category.",
+        "assessmentDate": null,
+        "sourceUrl": "https://www.wildlifetrusts.org/wildlife-explorer/mammals/water-vole"
+      },
+      "sources": [
+        {
+          "name": "The Wildlife Trusts · Water vole",
+          "url": "https://www.wildlifetrusts.org/wildlife-explorer/mammals/water-vole",
+          "supports": "Identity, Great Britain category, habitat, and appearance"
+        },
+        {
+          "name": "The Wildlife Trusts · Water vole recovery",
+          "url": "https://www.wildlifetrusts.org/water-voles",
+          "supports": "Threats and conservation projects"
+        },
+        {
+          "name": "PTES · Water vole fact file (p. 8)",
+          "url": "https://ptes.org/wp-content/uploads/2024/10/WW26-full-for-web.pdf#page=8",
+          "supports": "Global category and UK recovery work"
+        }
+      ],
+      "mappingStatus": "provisional",
+      "reviewed": true,
+      "checkedOn": "2026-10-09",
+      "assets": {
+        "glb": null,
+        "usdz": null
+      }
+    },
+    {
+      "pieceId": "pangolin_piece",
+      "labels": [
+        "Tree Pangolin",
+        "pangolin_piece",
+        "tree_pangolin",
+        "pangolin"
+      ],
+      "name": "Tree Pangolin",
+      "scientificName": "學名待補充",
+      "illustration": "pangolin",
+      "artwork": null,
+      "intro": "動物簡介待補充。",
+      "habitat": "棲息地資料待補充。",
+      "threats": "主要威脅待補充。",
+      "protection": "保育措施待補充。",
+      "fact": "補充資料待補充。",
+      "conservation": {
+        "category": null,
+        "code": null,
+        "scope": null,
+        "globalCategory": null,
+        "secondary": [],
+        "note": "",
+        "assessmentDate": null,
+        "sourceUrl": null
+      },
+      "sources": [],
+      "reviewed": false,
+      "mappingStatus": "pending",
+      "checkedOn": null,
+      "assets": {
+        "glb": null,
+        "usdz": null
+      }
+    },
+    {
+      "pieceId": "lynx_piece",
+      "labels": [
+        "Iberian Lynx",
+        "lynx_piece",
+        "iberian_lynx",
+        "lynx"
+      ],
+      "name": "Iberian Lynx",
+      "scientificName": "學名待補充",
+      "illustration": "lynx",
+      "artwork": null,
+      "intro": "動物簡介待補充。",
+      "habitat": "棲息地資料待補充。",
+      "threats": "主要威脅待補充。",
+      "protection": "保育措施待補充。",
+      "fact": "補充資料待補充。",
+      "conservation": {
+        "category": null,
+        "code": null,
+        "scope": null,
+        "globalCategory": null,
+        "secondary": [],
+        "note": "",
+        "assessmentDate": null,
+        "sourceUrl": null
+      },
+      "sources": [],
+      "reviewed": false,
+      "mappingStatus": "pending",
+      "checkedOn": null,
+      "assets": {
+        "glb": null,
+        "usdz": null
+      }
+    },
+    {
+      "pieceId": "eagle_piece",
+      "labels": [
+        "Philippine Eagle",
+        "eagle_piece",
+        "philippine_eagle",
+        "eagle"
+      ],
+      "name": "Philippine Eagle",
+      "scientificName": "學名待補充",
+      "illustration": "eagle",
+      "artwork": null,
+      "intro": "動物簡介待補充。",
+      "habitat": "棲息地資料待補充。",
+      "threats": "主要威脅待補充。",
+      "protection": "保育措施待補充。",
+      "fact": "補充資料待補充。",
+      "conservation": {
+        "category": null,
+        "code": null,
+        "scope": null,
+        "globalCategory": null,
+        "secondary": [],
+        "note": "",
+        "assessmentDate": null,
+        "sourceUrl": null
+      },
+      "sources": [],
+      "reviewed": false,
+      "mappingStatus": "pending",
+      "checkedOn": null,
+      "assets": {
+        "glb": null,
+        "usdz": null
+      }
+    },
+    {
+      "pieceId": "turtle_piece",
+      "labels": [
+        "Green Sea Turtle",
+        "turtle_piece",
+        "green_sea_turtle",
+        "turtle"
+      ],
+      "name": "Green Sea Turtle",
+      "scientificName": "學名待補充",
+      "illustration": "turtle",
+      "artwork": null,
+      "intro": "動物簡介待補充。",
+      "habitat": "棲息地資料待補充。",
+      "threats": "主要威脅待補充。",
+      "protection": "保育措施待補充。",
+      "fact": "補充資料待補充。",
+      "conservation": {
+        "category": null,
+        "code": null,
+        "scope": null,
+        "globalCategory": null,
+        "secondary": [],
+        "note": "",
+        "assessmentDate": null,
+        "sourceUrl": null
+      },
+      "sources": [],
+      "reviewed": false,
+      "mappingStatus": "pending",
+      "checkedOn": null,
+      "assets": {
+        "glb": null,
+        "usdz": null
+      }
+    },
+    {
+      "pieceId": "zebra_piece",
+      "labels": [
+        "Grévy's Zebra",
+        "zebra_piece",
+        "grevys_zebra",
+        "zebra"
+      ],
+      "name": "Grévy's Zebra",
+      "scientificName": "學名待補充",
+      "illustration": "zebra",
+      "artwork": null,
+      "intro": "動物簡介待補充。",
+      "habitat": "棲息地資料待補充。",
+      "threats": "主要威脅待補充。",
+      "protection": "保育措施待補充。",
+      "fact": "補充資料待補充。",
+      "conservation": {
+        "category": null,
+        "code": null,
+        "scope": null,
+        "globalCategory": null,
+        "secondary": [],
+        "note": "",
+        "assessmentDate": null,
+        "sourceUrl": null
+      },
+      "sources": [],
+      "reviewed": false,
+      "mappingStatus": "pending",
+      "checkedOn": null,
+      "assets": {
+        "glb": null,
+        "usdz": null
+      }
+    },
+    {
+      "pieceId": "whale_piece",
+      "labels": [
+        "Blue Whale",
+        "whale_piece",
+        "blue_whale",
+        "whale"
+      ],
+      "name": "Blue Whale",
+      "scientificName": "學名待補充",
+      "illustration": "whale",
+      "artwork": null,
+      "intro": "動物簡介待補充。",
+      "habitat": "棲息地資料待補充。",
+      "threats": "主要威脅待補充。",
+      "protection": "保育措施待補充。",
+      "fact": "補充資料待補充。",
+      "conservation": {
+        "category": null,
+        "code": null,
+        "scope": null,
+        "globalCategory": null,
+        "secondary": [],
+        "note": "",
+        "assessmentDate": null,
+        "sourceUrl": null
+      },
+      "sources": [],
+      "reviewed": false,
+      "mappingStatus": "pending",
+      "checkedOn": null,
+      "assets": {
+        "glb": null,
+        "usdz": null
+      }
+    }
+  ]
+}
