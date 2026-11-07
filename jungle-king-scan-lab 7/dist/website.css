@@ -1,0 +1,33 @@
+/* The public page keeps llab.co's spare sans-serif layout on white. */
+body[data-page=website]{--paper:#fff;--ink:#2f2b36;--muted:#77737c;--line:#e8e6eb;--soft:#f4f3f5;--accent:#625276;background:var(--paper);color:var(--ink);font-family:"Avenir Next",Avenir,"Century Gothic",sans-serif;-webkit-font-smoothing:antialiased;min-height:100svh;display:flex;flex-direction:column}
+html{scroll-behavior:smooth;scroll-padding-top:32px}
+body[data-page=website] .masthead{max-width:none;width:100%;margin:0;padding:32px 5.4%;align-items:center}
+body[data-page=website] .brand{font-size:32px;line-height:1;letter-spacing:-1.6px;font-weight:650;gap:0;text-transform:lowercase}
+body[data-page=website] .language-controls{gap:2px;color:var(--muted)}
+body[data-page=website] .language-controls button{font-size:13px;min-width:44px;padding:8px 7px;color:var(--ink);opacity:.65}
+body[data-page=website] .language-controls button[aria-pressed=true]{opacity:1;border:0;text-decoration:underline;text-underline-offset:6px}
+body[data-page=website] main{max-width:none;width:100%;padding:0;min-height:0;flex:1}
+body[data-page=website] .workspace{max-width:1400px;margin:auto;padding:56px 5.4% 80px;display:block;scroll-margin-top:0}
+body[data-page=website] .scanner-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,420px);gap:80px;align-items:start}
+.scanner-copy{padding-top:24px}.scanner-copy .eyebrow{font-size:11px;font-weight:500;letter-spacing:1.6px;margin-bottom:25px}
+.scanner-copy h1{font:500 clamp(32px,3vw,44px)/1.2 "Avenir Next",Avenir,"Century Gothic",sans-serif;letter-spacing:-1.2px;margin:0}
+body[data-page=website] .scan-description{font-size:17px;line-height:1.8;max-width:370px;margin:20px 0 0;color:var(--ink)}
+body[data-page=website] .camera-stage{border-radius:0}.camera-symbol{color:#aaa4b3}
+body[data-page=website] .scan-brackets i{border-color:#c0bac8}
+body[data-page=website] .stage-art{color:var(--muted)}
+body[data-page=website] .button{border-radius:0;font-size:13px;min-height:48px;font-weight:500;padding:13px 24px}
+body[data-page=website] .primary{background:var(--ink)}
+body[data-page=website] .camera-controls{justify-content:space-between;margin-top:20px}
+body[data-page=website] .camera-tag{background:#ffffffde;color:var(--ink)}
+body[data-page=website] .preparation-note,body[data-page=website] .scan-status{font-size:12px;line-height:1.8}
+body[data-page=website] .workspace.has-result{display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);gap:80px}
+body[data-page=website] .has-result .scanner-card{display:block}.has-result .scanner-view{margin-top:30px}
+body[data-page=website] .profile-card{padding-top:24px}
+body[data-page=website] .animal-heading h2{font-family:inherit;font-weight:500;letter-spacing:-1px}
+body[data-page=website] .animal-intro{color:var(--ink)}
+body[data-page=website] .site-footer{max-width:none;margin:0 5.4%;padding:28px 0 35px;border-top:1px solid var(--line);font-size:12px}
+body[data-page=website] .profile-card[lang=zh-Hant] .animal-heading h2{letter-spacing:0}
+@media(max-width:850px){body[data-page=website] .masthead{padding:25px 6%}body[data-page=website] .workspace{padding:45px 6% 70px}body[data-page=website] .scanner-card{gap:40px;grid-template-columns:minmax(0,1fr) minmax(0,360px)}body[data-page=website] .workspace.has-result{grid-template-columns:minmax(0,600px);justify-content:center;gap:50px}body[data-page=website] .has-result .scanner-card{display:grid;grid-template-columns:1fr 1fr;gap:30px}.has-result .scanner-view{margin-top:0}body[data-page=website] .site-footer{margin:0 6%}body[data-page=website] .profile-card{padding-top:32px}}
+@media(max-width:600px){body[data-page=website] .masthead{padding:22px 24px}body[data-page=website] .brand{font-size:25px;letter-spacing:-1.2px}body[data-page=website] .language-controls button{font-size:12px;min-width:40px}body[data-page=website] .workspace{padding:40px 24px 60px}body[data-page=website] .scanner-card,body[data-page=website] .has-result .scanner-card{display:block}.scanner-copy{padding-top:0}.scanner-copy .eyebrow{font-size:10px;margin-bottom:18px}.scanner-copy h1{font-size:34px}body[data-page=website] .scan-description{font-size:15px;line-height:1.8;margin:17px 0 30px}.scanner-view,.has-result .scanner-view{margin-top:0}body[data-page=website] .site-footer{margin:0 24px;font-size:11px}}
+@media(max-width:360px){body[data-page=website] .masthead{padding:20px}body[data-page=website] .brand{font-size:23px}body[data-page=website] .workspace{padding-left:20px;padding-right:20px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

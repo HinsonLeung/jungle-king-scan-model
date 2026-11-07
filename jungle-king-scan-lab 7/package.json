@@ -1,0 +1,18 @@
+{
+  "name": "jungle-king-scan-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build:test-assets": "node scripts/build-test-assets.mjs",
+    "test:browser": "node tests/scan-flow.browser.cjs && node tests/qr-3d.browser.cjs && node tests/site-pages.browser.cjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "@google/model-viewer": "4.1.0",
+    "@zxing/browser": "0.1.5",
+    "gltf-validator": "2.0.0-dev.3.10",
+    "qrcode": "1.5.4",
+    "three": "0.172.0"
+  }
+}
